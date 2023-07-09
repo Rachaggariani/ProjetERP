@@ -1,0 +1,27 @@
+.lock-icon-container {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .open-icon,
+  .closed-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+  }
+  .open-icon {
+    color: green; /* Couleur verte pour l'icône ouverte */
+  }
+  
+  .closed-icon {
+    color: black; /* Couleur noire pour l'icône fermée */
+  }
+
+  .locked-row {
+    background-color: red !important;
+    /* Autres styles pour une ligne verrouillée */
+  }
+  

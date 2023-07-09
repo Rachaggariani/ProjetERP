@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Dawarji - Analytics Dashboard</title>
+    
+     <!-- BEGIN GLOBAL MANDATORY STYLES -->
+     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+     <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
+     <link href="assets/css/apps/invoice-add.css" rel="stylesheet" type="text/css" />
+     <!-- END GLOBAL MANDATORY STYLES -->
+
+     <!-- BEGIN Authentification STYLES -->
+     <link href="assets/css/authentication/form-1.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" type="text/css" href="assets/css/forms/theme-checkbox-radio.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/forms/switches.css">
+     <link href="plugins/flatpickr/flatpickr.css" rel="stylesheet" type="text/css">
+     <link href="plugins/flatpickr/custom-flatpickr.css" rel="stylesheet" type="text/css">
+     <!-- END  Authentification STYLES -->
+
+    <link href="./assets/css/loader.css" rel="stylesheet" type="text/css" />
+    <script src="./assets/js/loader.js"></script>
+    
+    <link href="assets/css/pages/error/style-400.css" rel="stylesheet" type="text/css" /> 
+
+    <link href="assets/css/authentication/form-2.css" rel="stylesheet" type="text/css" />
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+    <link href="./plugins/apex/apexcharts.css" rel="stylesheet" type="text/css">
+    <link href="./assets/css/dashboard/dash_1.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+
+
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/users/users_list.css" rel="stylesheet" type="text/css" />
+<!-- CSS List client -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+
+<link href="assets/css/Clients/ListClient.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/forgetPassword/forgetPassword.css" rel="stylesheet" type="text/css" />
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+<link href="plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/apps/contacts.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/users/profilePage.css" rel="stylesheet" type="text/css" />
+
+    <link href="assets/css/scrollspyNav.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/components/tabs-accordian/custom-tabs.css" rel="stylesheet" type="text/css" />
+    
+    <link href="assets/css/apps/todolist.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="plugins/editors/quill/quill.snow.css">
+    <link href="assets/css/users/userFormAdd.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/file-upload/file-upload-with-preview.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="plugins/dropify/dropify.min.css">
+    <link href="assets/css/users/account-setting.css" rel="stylesheet" type="text/css" />
+
+<!--  BEGIN CUSTOM STYLE FILE  -->
+<link href="assets/css/users/user-profile.css" rel="stylesheet" type="text/css" />
+<!--  END CUSTOM STYLE FILE  -->
+
+<link href="plugins/animate/animate.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/components/custom-modal.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/tables/table-basic.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
+<style>
+  .widget { margin-bottom: 10px; }
+  .widget {
+margin-bottom: 10px;
+border: none;
+box-shadow: rgb(145 158 171 / 24%) 0px 0px 2px 0px, rgb(145 158 171 / 24%) 0px 16px 32px -4px;
+}
+.widget-content-area { border-radius: 6px; }
+  .daterangepicker.dropdown-menu {
+      z-index: 1059;
+  }
+
+</style>
+ 
+  </head>
+  
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+
+    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+    <!-- <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script> -->
+    <!-- END GLOBAL MANDATORY SCRIPTS -->
+
+    <!-- <script src="./plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script> -->
+
+    <!-- <script>
+        $(document).ready(function() {
+            App.init();
+        });
+    </script>
+    
+   
+    <script src="assets/js/authentication/form-1.js"></script>
+
+
+    <script src="assets/js/custom.js"></script> -->
+    <!-- END GLOBAL MANDATORY SCRIPTS -->
+   
+    <!-- <script src="assets/js/apps/contact.js"></script>
+    <script src="assets/js/authentication/form-2.js"></script>
+
+
+
+    <script src="plugins/highlight/highlight.pack.js"></script>
+    END GLOBAL MANDATORY STYLES -->
+     <!--<script src="assets/js/scrollspyNav.js"></script>
+    <script src="assets/js/ie11fix/fn.fix-padStart.js"></script>
+    <script src="plugins/editors/quill/quill.js"></script>
+    <script src="assets/js/apps/todoList.js"></script>
+
+    <script src="./assets/js/users/userFormAdd.js"></script>
+    
+
+
+    <script src="assets/js/users/userFormAdd.js"></script>
+
+    <script src="plugins/dropify/dropify.min.js"></script>
+    <script src="plugins/blockui/jquery.blockUI.min.js"></script> -->
+    <!-- <script src="plugins/tagInput/tags-input.js"></script> -->
+    <!-- <script src="assets/js/users/account-settings.js"></script> -->
+    <!--  END CUSTOM SCRIPTS FILE  -->
+
+
+    <!--  BEGIN CUSTOM SCRIPT Modal FILE  -->
+    
+    <!-- <script>
+        $('#yt-video-link').click(function () {
+            var src = 'https://www.youtube.com/embed/YE7VzlLtp-4';
+            $('#videoMedia1').modal('show');
+            $('<iframe>').attr({
+                'src': src,
+                'width': '560',
+                'height': '315',
+                'allow': 'encrypted-media'
+            }).css('border', '0').appendTo('#videoMedia1 .video-container');
+        });
+        $('#vimeo-video-link').click(function () {
+            var src = 'https://player.vimeo.com/video/1084537';
+            $('#videoMedia2').modal('show');
+            $('<iframe>').attr({
+                'src': src,
+                'width': '560',
+                'height': '315',
+                'allow': 'encrypted-media'
+            }).css('border', '0').appendTo('#videoMedia2 .video-container');
+        });
+        $('#videoMedia1 button, #videoMedia2 button').click(function () {
+            $('#videoMedia1 iframe, #videoMedia2 iframe').removeAttr('src');
+        });
+    </script>    
+     END CUSTOM SCRIPT FILE  -->
+    <!-- <script>
+      checkall('todoAll', 'todochkbox');
+      $('[data-toggle="tooltip"]').tooltip()
+  </script> -->
+  <script src="assets/js/app.js"></script>
+  <script>
+    checkall('todoAll', 'todochkbox');
+    $('[data-toggle="tooltip"]').tooltip()
+</script>
+<script src="assets/js/apps/invoice-add.js"></script>
+<script src="plugins/flatpickr/flatpickr.js"></script>
+  </body>
+</html>

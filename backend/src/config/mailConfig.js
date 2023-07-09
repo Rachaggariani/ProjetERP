@@ -1,0 +1,1 @@
+// fichier vide de mailConfig

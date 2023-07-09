@@ -1,0 +1,5 @@
+.scrollable-cell {
+  min-width: 100px; /* ou toute autre largeur que vous souhaitez */
+  max-height: 50px; /* ou toute autre hauteur que vous souhaitez */
+  overflow-y: scroll;
+}

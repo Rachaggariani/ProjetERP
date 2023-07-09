@@ -1,0 +1,46 @@
+#privacyWrapper {
+    position: relative;
+    z-index: 12;
+  }
+  
+  .privacyContent > .container-fluid {
+    position: relative;
+    z-index: 1;
+  }
+  img {
+  max-width: auto;
+  height: auto;
+  margin-left: -10%;
+  margin-top: -5%;
+ 
+}
+h6{font-size:1em;}
+
+.container {
+  width: 21cm;
+  min-height: 29.7cm;
+}
+
+.invoice {
+  background: #fff;
+  width: 100%;
+  padding: 50px;
+}
+
+
+
+.document-type {
+  text-align: right;
+  color: #444;
+}
+
+.conditions {
+  font-size: 0.7em;
+  color: #666;
+}
+
+.bottom-page {
+  font-size: 0.7em;
+}
+
+/* -------- */

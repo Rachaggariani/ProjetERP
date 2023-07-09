@@ -1,0 +1,60 @@
+.bell-badge {
+    position: absolute;
+    top: 27px;
+    right: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    background-color: #0ab7f7;
+    color: white;
+    font-size: 7px;
+    font-weight: bold;
+    z-index: 10;
+    animation: badge-pulse 1s infinite;
+    position: relative;
+    border-radius: 50%;
+ 
+    animation: bell-pulse 2s ease-in-out infinite;
+  }
+  @keyframes badge-pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes bell-pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(35, 105, 174, 0.4)
+    }
+    50% {
+      transform: scale(1.1);
+      box-shadow: 0 0 0 10px rgba(255, 23, 68, 0);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(47, 104, 227, 0.395);
+    }
+  }  
+  .popover {
+    position: absolute;
+    top: 54px;
+    left:-89px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  .popover-content {
+    padding: 10px;
+   
+  }

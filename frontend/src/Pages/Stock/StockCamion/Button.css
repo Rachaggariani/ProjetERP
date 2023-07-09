@@ -1,0 +1,33 @@
+/* .btn-circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+ 
+  }
+  .btn-primary.btn-circle {
+    background-color: #033c7e !important;
+    color: white;
+  }
+*/
+.btn-primary.btn-circle {
+    background-color: #0F056B !important;
+    color: white;
+    box-shadow: 2px 2px 4px 2px #0F056B;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 0;
+    margin: 0 10px;
+    border: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  .btn-primary.btn-circle:hover {
+    transform: translateY(-3px);
+  }
